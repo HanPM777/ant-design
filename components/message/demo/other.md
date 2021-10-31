@@ -21,7 +21,7 @@ const success = () => {
 };
 
 const error = () => {
-  message.error('This is an error message');
+  message.error('网络中断，建议您先检查网络后重试');
 };
 
 const warning = () => {
